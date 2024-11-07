@@ -1,4 +1,4 @@
-# Processing.js
+# Processing.js with Live2D!
 
 For the project website, visit http://processingjs.org
 
@@ -18,17 +18,7 @@ File an issue to say that you'd like to help out, and we can find some good plac
 
 ## Getting Processing.js
 
-### Bower install
-
-`bower install Processing.js`
-
-### NPM install
-
-`npm install processing-js`
-
-### Getting Processing.js the plain way
-
-Simply grab the `processing.js` or `processing.min.js` files, include them as script on your webpage, and you're all set. See `test.html` for a simple example of using Processing.js on your pages.
+Simply grab the `processing.js` file, include them as script on your webpage, and you're all set. See `test.html` for a simple example of using Processing.js on your pages.
 
 ## Playing with the code
 
@@ -51,10 +41,8 @@ The test script also accepts the following optional arguments:
 
 You can also perform the post-unit-test steps manually:
 
-* Build processing.js: `$> browserify build.js -o processing.js`
-* Minify processing.js: `$> node minify`
+* Build processing.js: `$> node build.js` (make sure you have esbuild installed)
 * Run test server: `$> node server`
-
 
 ### While the browser tests run
 
