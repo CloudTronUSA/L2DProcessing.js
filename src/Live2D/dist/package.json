@@ -1,0 +1,7 @@
+{
+    "name": "live2dcubismframework",
+    "version": "1.0.0",
+    "description": "Live2D Cubism Framework compiled output",
+    "main": "live2dcubismframework.js",
+    "type": "module"
+}
